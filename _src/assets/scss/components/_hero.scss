@@ -6,11 +6,18 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  
+}
+.box-content{
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 53px;
 }
-
 .content-title {
   margin:0;
   width: 290px;
@@ -23,13 +30,10 @@
   font-stretch: normal;
   line-height: 55px;
   letter-spacing: normal;
-  text-align: center;
   color: $color-white;
-
 }
 .content-text {
   margin:20px;
-  border: 2px solid black;
   width: 290px;
   height: 21px;
   font-family: Roboto;
@@ -40,5 +44,14 @@
   line-height: normal;
   letter-spacing: normal;
   color: $color-white;
-
+  padding: 10px 0 76px;
+}
+.ico-down{
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-white; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
