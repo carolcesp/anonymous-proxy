@@ -1,9 +1,10 @@
 @import 'core/settings';
 @import 'components/header';
-@import 'components/hero';
+@import 'components/main';
+@import 'components/about';
 
 body{
-  background: pink;
+  background:#ffffff;
   margin: 0;
   padding: 0;
 }
