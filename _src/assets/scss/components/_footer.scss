@@ -18,17 +18,53 @@
   position: absolute;
   text-align: center;
   top: -20px;
-  left: 150px;
+  left: 140px;
 }
-// texto footer
+// lista footer
 
 .footer-copy{
-  
-}
-.style-copy{
+  padding: 0 15px;
   margin:0;
-  width: 320px;
-  height: 128px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+}
+.stylecopy{
+  margin:0;
   background-color: $color-dark-grey-blue;
-  position: relative;
+}
+// estilo copy
+.foot1{
+  width: 77px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-white;
+}
+// estilo we components
+.foot2{
+  width: 290px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-white;
+}
+.style-heart{
+    color: #f26002;
 }
