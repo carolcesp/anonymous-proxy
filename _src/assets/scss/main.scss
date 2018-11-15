@@ -1,6 +1,7 @@
 @import 'core/settings';
+@import 'components/header';
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
+	background: url('../images/cover.jpg') center center no-repeat $color-white;
 	height: 100vh;
 }
