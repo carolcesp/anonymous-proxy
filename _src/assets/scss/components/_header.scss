@@ -1,7 +1,24 @@
+.header{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
 .btn-menu{
+  margin: 0;
+  padding: 0;
   width: 44px;
   height: 44px;
   border:2px solid black;
   background-color: #0271bc;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+.btn-style{
+  width: 16px;
+  height: 14px;
+  object-fit: contain;
+  background-color: var(--white);
 }
