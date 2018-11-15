@@ -1,6 +1,9 @@
 .page-main{
   margin:0;
   padding: 0;
+  width: 320px;
+  height: 376px;
+  background-color: $color-white;
   
 }
 .box-main{
@@ -36,7 +39,6 @@
 .style-par{
   margin: 0;
   padding: 0;
-  background: pink;
   width: 290px;
   height: 120px;
   font-family: Roboto;
@@ -49,7 +51,7 @@
   color: $color-greyish-brown;
 }
 // estilo boton
-.btn-go{
+.main-btn-go{
   width: 76px;
   height: 45px;
   border-radius: 22.5px;

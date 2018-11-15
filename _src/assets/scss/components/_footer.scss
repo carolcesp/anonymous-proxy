@@ -1,0 +1,34 @@
+.box-footer{
+  width: 320px;
+  height: 128px;
+  background-color:$color-dark-grey-blue ;
+  text-align: center;
+  position: relative;
+}
+// estilo boton
+.ico-arrow{
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  top: -20px;
+  left: 150px;
+}
+// texto footer
+
+.footer-copy{
+  
+}
+.style-copy{
+  margin:0;
+  width: 320px;
+  height: 128px;
+  background-color: $color-dark-grey-blue;
+  position: relative;
+}
