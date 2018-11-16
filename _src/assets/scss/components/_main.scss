@@ -1,16 +1,12 @@
 .page-main{
   margin:0;
   padding: 0;
-  width: 320px;
-  height: 376px;
   background-color: $color-white;
   
 }
 .box-main{
-  height: 376px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+display: flex;
+flex-direction:column;
 }
 .text-ancla{
   padding: 30px 15px 0 15px;
@@ -52,6 +48,7 @@
 }
 // estilo boton
 .main-btn-go{
+  margin: 0 0 45px;
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
@@ -71,4 +68,15 @@
   letter-spacing: normal;
   text-align: center;
   color: #f26002;
+}
+// mediaqueries
+@media all and (min-width:768px){
+  .box-main{
+  width: 768px;
+  height: 330px;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  }
+
 }

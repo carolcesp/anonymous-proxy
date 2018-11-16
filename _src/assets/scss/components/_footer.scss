@@ -1,10 +1,14 @@
-.box-footer{
-  width: 320px;
-  height: 128px;
+.page-footer{
   background-color:$color-dark-grey-blue ;
   text-align: center;
   position: relative;
 }
+.box-footer{
+  width: 320px;
+  height: 128px;
+  display: flex;
+  flex-wrap: wrap;
+  }
 // estilo boton
 .ico-arrow{
   width: 45px;

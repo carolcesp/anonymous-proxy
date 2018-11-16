@@ -1,10 +1,16 @@
-.box-about{
-  background: red;
-  width: 320px;
-  height: 624px;
+.page-about{
   background-color: $color-ice-blue;
   text-align: center;
 }
+.box-about{
+  padding: 30px;
+  background-color: #eff9ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
 .title-about{
   margin: 0;
   height: 30px;
@@ -76,4 +82,12 @@
   text-align: center;
   color: $color-white;
 }
-
+// mediaqueries
+@media all and (min-width:768px){
+  .about-contentgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-gap: 45px;
+  }
+}
