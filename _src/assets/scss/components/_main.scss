@@ -53,10 +53,13 @@ flex-direction:column;
   height: 45px;
   border-radius: 22.5px;
   border: solid 2px #f26002;
+  &:hover{
+    background-color: pink;
+    transition: background-color ease .2s;
+  }
 }
 .go-style{
-  padding: 0 26px;
-  margin: 0;
+  margin: auto;
   width: 25px;
   height: 45px;
   font-family: 'Roboto';
@@ -95,14 +98,11 @@ flex-direction:column;
   line-height: 1.5;
   }
   .main-btn-go{
-  margin: 0 0 45px;
   width: 91px;
   height: 45px;
   border-radius: 22.5px;
   }
   .go-style{
-  padding: 0 26px;
-  margin: 0;
   text-align: center;
   }
 }
@@ -128,7 +128,6 @@ flex-direction:column;
   border-radius: 22.5px;
   }
   .go-style{
-  margin: 0 40px;
   text-align: center;
   }
 }
