@@ -71,7 +71,6 @@
   line-height: normal;
   letter-spacing: normal;
   color: $color-white;
-  padding: 10px 0 76px;
 }
 // estilo boton
 .ico-down{
@@ -84,7 +83,7 @@
   justify-content: center;
 }
 
-// media queries hero
+// media queries 768
 @media all and (min-width:768px){
   .box-contentflex{
     padding: 284px 15px 174px;
@@ -100,4 +99,32 @@
     font-size: 80px;
     line-height: 1.33;
   }
+  .content-text {
+    height: 32px;
+    font-size: 24px;
+  }
+}
+  // media queries 1280
+  @media all and (min-width:1280px){
+    .box-contentflex{
+      padding: 284px 15px 174px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .content-title {
+      margin:0;
+      width: 730px;
+      height: 264px;
+      font-size: 100px;
+      line-height: 1.32;
+      letter-spacing: normal;
+      color: $color-white;
+    }
+    .content-text {
+      width: 730px;
+      height: 32px;
+      font-size: 24px;
+    }
   }
