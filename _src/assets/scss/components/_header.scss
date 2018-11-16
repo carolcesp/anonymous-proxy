@@ -1,3 +1,4 @@
+// header
 .header{
   margin: 0;
   padding: 0;
@@ -19,7 +20,6 @@
 .btn-style{
   width: 16px;
   height: 14px;
-  object-fit: contain;
 }
 
 // hero
@@ -33,18 +33,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  
 }
-.box-content{
+.box-contentflex{
+  padding: 284px 15px 174px;
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 53px;
 }
-// parrafo hero
+.box-contentflex2{
+  display: flex;
+  justify-content: center;
+}
+// estilo tittulo
 .content-title {
   margin:0;
   width: 290px;
@@ -55,14 +56,13 @@
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 55px;
+  line-height: 1.31;
   letter-spacing: normal;
   color: $color-white;
 }
+
+// estilo texto 
 .content-text {
-  margin:20px;
-  width: 290px;
-  height: 21px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: regular;
@@ -78,8 +78,26 @@
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
-  background-color: $color-white; 
+  background-color: $color-white;
   text-align: center;
   display: flex;
   justify-content: center;
 }
+
+// media queries hero
+@media all and (min-width:768px){
+  .box-contentflex{
+    padding: 284px 15px 174px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-title {
+    margin:0;
+    width: 690px;
+    height: 212px;
+    font-size: 80px;
+    line-height: 1.33;
+  }
+  }
