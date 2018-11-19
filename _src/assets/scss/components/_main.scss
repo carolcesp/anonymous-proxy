@@ -16,6 +16,7 @@ flex-direction:column;
   margin:0;
   padding: 0 15px 0;
 }
+
 .style.h1main{
   width: 290px;
   height: 60px;
@@ -30,13 +31,11 @@ flex-direction:column;
 }
 // estilo parrafo
 .main-style-par{
-  margin: 15px 15px 30px ;
+  margin:0 15px 30px ;
 }
-.style-par{
+.stylepar{
   margin: 0;
   padding: 0;
-  width: 290px;
-  height: 120px;
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: normal;
@@ -48,7 +47,7 @@ flex-direction:column;
 }
 // estilo boton
 .main-btn-go{
-  margin: 0 0 45px;
+  margin: 0 15px 45px;
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
