@@ -55,6 +55,7 @@ flex-direction:column;
   &:hover{
     background-color: pink;
     transition: background-color ease .2s;
+    cursor: pointer;
   }
 }
 .go-style{
@@ -121,7 +122,6 @@ flex-direction:column;
   line-height: 1.41;
   }
   .main-btn-go{
-  margin: 0 0 45px;
   width: 160px;
   height: 45px;
   border-radius: 22.5px;
@@ -130,3 +130,4 @@ flex-direction:column;
   text-align: center;
   }
 }
+
