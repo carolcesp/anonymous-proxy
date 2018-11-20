@@ -22,10 +22,14 @@
   background-color: $color-white;
 }
 // box contenido
+.box-footer-content{
+  margin:0 ;
+  text-align: center;
+}
 .footer-copy{
   text-align: center;
   list-style: none;
-  padding: 30px;
+  margin:0;
 }
 .stylecopy{
   margin:0;
